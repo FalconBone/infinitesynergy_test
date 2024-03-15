@@ -1,0 +1,63 @@
+.container {
+    flex: 1;
+    background-color: rgb(232, 232, 232);
+    padding: 40px;
+}
+
+.info_block {
+    margin-bottom: 20px;
+}
+
+.info_text {
+    color: rgba(0, 0, 0, 0.763);
+}
+
+.info_block input{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.211);
+    padding-left: 10px;
+}
+
+.info_block input:invalid{
+    border: 1px solid rgba(252, 0, 0, 0.763);
+}
+
+.info_block input:focus{
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.433);
+}
+
+.info_block input:focus:invalid{
+    outline: none;
+    border: 1px solid rgba(252, 0, 0, 0.763);
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.invalid_input {
+    border: 1px solid rgba(252, 0, 0, 0.763);
+}
+
+.save_button {
+    color: white;
+    width: 100px;
+    height: 30px;
+    background-color: #7600DC;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.save_button:hover {
+    background-color: #6901c4;
+}
+
+.save_button:active {
+    margin-top: 2px;
+}
